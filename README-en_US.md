@@ -3,7 +3,7 @@
 <div align="center">
   <img src="Logo.png" alt="MiaoHeCafe Logo" width="100"/>
   <br>
-  <span><a href="README.md">Simplified Chinese</a> | English</span>
+  <span><a href="README.md">简体中文</a> | English</span>
   <br>
   MiaoHe Maid Cafe
 </div>
