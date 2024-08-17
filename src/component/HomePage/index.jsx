@@ -1,9 +1,10 @@
 import "./index.css";
 import { Link } from "react-router-dom";
+import Footer from "../Footer";
 
 function HomePage() {
   return (
-    <>
+    <div className="homepage">
       <div className="content">
         <h1>MIAOHE CAFE</h1>
         <p>
@@ -20,10 +21,8 @@ function HomePage() {
         </div>
       </div>
 
-      <div className="footer">
-        <p>© MIAOHE.CAFE</p>
-      </div>
-    </>
+      <Footer />
+    </div>
   );
 }
 
