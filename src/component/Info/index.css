@@ -1,0 +1,28 @@
+.info {
+  padding: 10px 40px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.info a {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  transition: background 0.3s ease;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+.info a:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .info a {
+    left: 15px;
+    top: 15px;
+    padding: 8px 15px;
+  }
+}

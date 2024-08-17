@@ -25,14 +25,6 @@
 
 /* 移动端适配 */
 @media (max-width: 768px) {
-  h1 {
-    font-size: 2em;
-  }
-
-  p {
-    font-size: 1em;
-  }
-
   .navbar a {
     padding: 8px 15px;
   }
