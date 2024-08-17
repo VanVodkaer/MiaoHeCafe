@@ -1,4 +1,5 @@
 import "./index.css";
+import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -11,10 +12,11 @@ function HomePage() {
           为您带来独属于自己的悠然时光。
         </p>
         <div className="navbar">
-          <a href="#">简介</a>
-          <a href="#">菜单</a>
-          <a href="#">地图</a>
-          <a href="#">联系</a>
+          <Link to="/info">喵和简介</Link>
+          <Link to="/menu">服务体验</Link>
+          <Link to="/map">地图导航</Link>
+          <Link to="/contact">联系我们</Link>
+          <Link to="/social">社交媒体</Link>
         </div>
       </div>
 
