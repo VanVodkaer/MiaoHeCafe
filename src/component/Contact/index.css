@@ -1,0 +1,19 @@
+.contact .w {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact .contact-details {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.contact .qrcode {
+  flex-shrink: 0;
+}
+
+.contact .qrcode img {
+  width: 200px;
+  height: 273px;
+}

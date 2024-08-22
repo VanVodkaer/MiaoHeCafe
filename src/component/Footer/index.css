@@ -7,7 +7,7 @@
 
 /* 移动端适配 */
 @media (max-width: 768px) {
-  p {
+  .footer p {
     font-size: 1em;
   }
 
