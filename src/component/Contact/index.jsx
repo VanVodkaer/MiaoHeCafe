@@ -8,7 +8,7 @@ function Contact() {
   return (
     <div className="contact">
       <BackButton />
-      <div className="w fadein info">
+      <div className="w fadein">
         <div className="contact-details">
           <p>
             联系电话
