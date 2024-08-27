@@ -1,0 +1,79 @@
+.map {
+  padding: 20px;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  justify-content: space-around; /* 让按钮均匀分布 */
+}
+
+.tabs button {
+  padding: 10px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  transition: border-bottom 0.3s ease, background-color 0.3s ease;
+  border-bottom: 2px solid transparent;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  white-space: nowrap; /* 防止按钮文字换行 */
+  margin: 5px; /* 增加按钮之间的间距 */
+}
+
+.tabs button.active {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+}
+
+.tabs button:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.content {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.map-content {
+  margin-bottom: 20px;
+}
+
+.map-content p,
+.map-content a {
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  white-space: nowrap; /* 防止文本换行 */
+}
+
+.qrcode img {
+  width: 500px;
+  height: 500px;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* 适配移动端 */
+@media (max-width: 600px) {
+  .tabs button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .qrcode img {
+    width: 300px;
+    height: 300px;
+  }
+}
