@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import HomePage from "./component/HomePage/";
 import Info from "./component/Info";
+import MeiTuan from "./component/MeiTuan";
 import Map from "./component/Map";
 import Contact from "./component/Contact";
 import Social from "./component/Social";
@@ -15,6 +16,9 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <HomePage />,
+  },
+  { path: "/meituan", 
+    element: <MeiTuan /> 
   },
   {
     path: "/info",
