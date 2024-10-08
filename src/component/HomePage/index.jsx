@@ -14,7 +14,7 @@ function HomePage() {
         </p>
         <div className="navbar slow-slidein">
           <Link to="/info">喵和简介</Link>
-          <a href="#">美团点单</a>
+          <a href="/meituan">美团点单</a>
           <Link to="/map">地图导航</Link>
           <Link to="/contact">联系我们</Link>
           <Link to="/social">社交媒体</Link>

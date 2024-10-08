@@ -1,0 +1,20 @@
+.meituan .w {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .meituan .meituan-details {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .meituan .qrcode {
+    flex-shrink: 0;
+  }
+  
+  .meituan .qrcode img {
+    width: 200px;
+    height: 273px;
+  }
+  
