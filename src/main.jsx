@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import "./animation.css";
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
 import HomePage from "./component/HomePage/";
 import Info from "./component/Info";
@@ -12,13 +12,14 @@ import Map from "./component/Map";
 import Contact from "./component/Contact";
 import Social from "./component/Social";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <HomePage />,
   },
-  { path: "/meituan", 
-    element: <MeiTuan /> 
+  {
+    path: "/meituan",
+    element: <MeiTuan />,
   },
   {
     path: "/info",
